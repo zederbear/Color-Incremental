@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-items: normal;
+    background-color: rgb(33, 32, 46);
 }
 
 #red-button {
@@ -17,8 +18,44 @@ body {
     transition: transform .5s;
 }
 
+#colors-container {
+    background-color: rgb(99, 96, 136);
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 4px;
+    border-width: 2px;
+    margin-right: 10px;
+    width: 10%;
+    padding: 5px;
+}
+
+.currency-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-green {
+    color: rgb(0, 255, 0);
+}
+
 .text-red {
-    color: tomato;
+    color: rgb(255, 0, 0);
+}
+
+.text-blue {
+    color: rgb(0, 0, 255);
+}
+
+.text-yellow {
+    color: rgb(255, 255, 0);
+}
+
+.text-cyan {
+    color: rgb(0, 255, 255);
+}
+
+.text-magenta {
+    color: rgb(255, 0, 255);
 }
 
 .no-highlight-text {
