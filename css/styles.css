@@ -15,7 +15,6 @@ body {
     padding: 2px 5px;
     border-radius: 3px;
     height: fit-content;
-    transition: transform .5s;
 }
 
 #colors-container {
@@ -61,7 +60,13 @@ body {
 .no-highlight-text {
     user-select: none;
 }
+.button {
+    transition: transform 0.1s;
+}
+.button:hover {
+    transform: scale(1.2);
+}
 
-#red-button:hover {
-    transform: scale(1.5);
+.button#active {
+    transform: scale(0.9);
 }
